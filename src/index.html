@@ -4,20 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="./1-timer.html" class="nav-link">Timer</a>
-        </li>
+    <form class="login-form js-form-container">
+      <label>
+        <input class="input-text" type="text" name="search" />
+      </label>
 
-        <li class="nav-item">
-          <a href="./2-snackbar.html" class="nav-link">Snackbar</a>
-        </li>
-      </ul>
-    </nav>
+      <button class="form-btn" type="submit">Search</button>
+    </form>
+    <div class="loader-box"><span class="loader js-loader"></span></div>
+    <ul class="card-container"></ul>
 
     <script type="module" src="./main.js"></script>
   </body>

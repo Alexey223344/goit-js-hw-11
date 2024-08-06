@@ -5,7 +5,5 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./1-timer.css');
-@import url('./start.css');
-@import url('./2-snackbar.css');
 
+@import url('./start.css');
