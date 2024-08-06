@@ -10,6 +10,7 @@ export default defineConfig(({ command }) => {
     },
     root: 'src',
     build: {
+      outDir: 'dist',
       sourcemap: true,
 
       rollupOptions: {
